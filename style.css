@@ -3,55 +3,58 @@
 }
 
 .container{
+    height: 150px;
     background : #ecf0f1;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.container2{
-    background : #ecf0f1;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.box{
-    padding: 30px;
-    color: white;
-    font-family: Poppins,"Helvetica Neue", arial, san-serif;
-    font-size: 12px;
-    text-align: center;
-    width:200px;
-}
+    .box{
+        padding: 30px;
+        color: white;
+        font-family: Poppins,"Helvetica Neue", arial, san-serif;
+        font-size: 12px;
+        text-align: center;
+        width:200px;
+    }
 
-.box1 {
- background-color: #1dd0ad;
-}
-.box2 {
- background-color: #2fcc72;
-}
-.box3 {
- background-color: #3498db;
-}
-.box4 {
- background-color: #9b59b6;
-}
-.box5 {
- background-color: #34495e;
-}
-.box6 {
- background-color: #f1c40f;
-}
-.box7 {
- background-color: #e67e22;
-}
-.box8 {
- background-color: #e74c3c;
-}
-.box9 {
- background-color: #95a5a6;
-}
-.box10 {
- background-color: #7f8c8d;
-}
+    .box1 {
+       background-color: #1dd0ad;
+       align-self:  center;
+   }
+   .box2 {
+       background-color: #2fcc72;
+       align-self: flex-start;
+   }
+   .box3 {
+       background-color: #3498db;
+       align-self: center;
+   }
+   .box4 {
+       background-color: #9b59b6;
+       align-self: flex-start;
+   }
+   .box5 {
+       background-color: #34495e;
+       align-self: center;
+   }
+   .box6 {
+       background-color: #f1c40f;
+       align-self: flex-start;
+   }
+   .box7 {
+       background-color: #e67e22;
+       align-self: center;
+   }
+   .box8 {
+       background-color: #e74c3c;
+       align-self: flex-start;
+   }
+   .box9 {
+       background-color: #95a5a6;
+       align-self: center;
+   }
+   .box10 {
+       background-color: #7f8c8d;
+       align-self: flex-start;
+   }
